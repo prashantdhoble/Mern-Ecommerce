@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbarr csss */
+.navbar{
+   line-height: 26px;
+   text-transform: uppercase;
+   box-shadow: 0 8px 6px -6px gray;
+   border-bottom: 0px solid gray !important;
+}
+
+.nav-link{
+    font-weight: 300 !important;
+}
+
+.active{
+    border-bottom: 1px solid black;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+/* footer */
+
+.footer{
+    color: white;
+    padding: 25px;
+    background:rgb(40, 39, 39);
+   
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.footer a:hover{
+    color: #ffefba;
+    border-bottom: 1px solid #ffefba;
+}
+
+/* page not found */
+.pnf-title{
+    font-size: 40px;
+}
+.pnf-heading{
+    font-size: 20px;
+    color: gray;
+}
+.pnf-btn{
+    border: 1px solid gray;
+    width: 80px;
+    height: 40px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+
+/* products page*/
+.product-links{
+    text-decoration: none !important;
+    color: black;
+}
+
